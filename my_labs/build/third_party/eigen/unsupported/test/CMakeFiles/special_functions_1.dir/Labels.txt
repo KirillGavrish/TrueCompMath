@@ -1,4 +1,0 @@
-# Target labels
- BuildUnsupported
-# Source files and their labels
-/Users/bennington2000super/Documents/5 семестр/Вычматы/CompMath/my/third_party/eigen/unsupported/test/special_functions.cpp

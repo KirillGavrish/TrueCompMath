@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "../src/labs/DerivativeCoef/DerivativeCoef.h"
+#include "labs/DerivativeCoef/DerivativeCoef.h"
 
 TEST(calcDerivativeCoef, TEST_EXAMPLE)
 {

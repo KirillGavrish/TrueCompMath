@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "../src/labs/HermiteInterpolator/HermiteInterpolator.h"
+#include "labs/HermiteInterpolator/HermiteInterpolator.h"
 TEST(HermiteInterpolant, TEST)
 {
     std::array<double, 13> constexpr points = {0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.55, 0.6, 0,7, 0.8, 0.9, 1};

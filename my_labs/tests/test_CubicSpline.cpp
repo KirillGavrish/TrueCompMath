@@ -1,4 +1,4 @@
-#include "../src/labs/CubicSpline/CubicSpline.h"
+#include "labs/CubicSpline/CubicSpline.h"
 #include "gtest/gtest.h"
 
 TEST(CubicSpline, TEST)

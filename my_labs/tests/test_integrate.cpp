@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "../src/labs/integrate/integrate.h"
+#include "labs/integrate/integrate.h"
 #include <cmath>
 
 double f1(double const &x) {return std::sin(x);}

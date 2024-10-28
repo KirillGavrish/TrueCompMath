@@ -3,8 +3,8 @@
 
 TEST(CubicSpline, TEST)
 {
-    std::vector<double> points = {0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0,7, 0.8, 0.9, 1};
-    std::vector<double> values = {
+    std::vector<double> const points = {0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0,7, 0.8, 0.9, 1};
+    std::vector<double> const values = {
         1,
         1.105170918075647,
         1.221402758160169,

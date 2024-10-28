@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.20)
 
 project(graphs)
 
-if (NOT TARGET my)
-    add_subdirectory(my)
+if (NOT TARGET my_labs)
+    add_subdirectory(my_labs)
 endif()
 
 file(GLOB_RECURSE GRAPH_SOURCES graphs/data_*.cpp)

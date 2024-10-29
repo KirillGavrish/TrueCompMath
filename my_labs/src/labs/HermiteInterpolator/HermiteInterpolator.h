@@ -44,7 +44,7 @@ HermiteInterpolator<xType, yType, N>::HermiteInterpolator(
 template<typename xType, typename yType, u32 N>
 yType HermiteInterpolator<xType, yType, N>::interpolate(xType const &x) const noexcept
 {
-    yType interpolated, tmp;
+    yType interpolated = 0, tmp;
     for(u32 i = 0; i < 2 * N; ++i)
     {
         tmp = coefs[i];

@@ -14,5 +14,5 @@ foreach (GRAPH_FILE IN LISTS GRAPH_SOURCES)
 
     add_executable(${EXECUTABLE_NAME} ${GRAPH_FILE})
     target_link_libraries(${EXECUTABLE_NAME} PRIVATE labs)
-    target_include_directories(${EXECUTABLE_NAME} PUBLIC my_labs/src/labs)
+    #target_include_directories(${EXECUTABLE_NAME} PUBLIC my_labs/src/labs)
 endforeach ()

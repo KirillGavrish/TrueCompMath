@@ -1,7 +1,7 @@
 # CompMath
 ## There are my computational mathematics labs
 
-### It will be much easier for you if you open this project in CLion, but you also can build it following steps below:
+### You can build this project following steps below:
 
 ```
 mkdir build
@@ -13,6 +13,11 @@ cmake ..
 mkdir build
 cd build
 cmake .. -DWITH_TESTS=ON
+cmake --build .
 ```
 
-> but it does not work properly, pls wait for updates
+My code may not with old compilers, try to build this project using one of the latest ones.
+
+For example, gcc14, by adding '-DCMAKE_CXX_COMPILER=g++-14' at building stage.
+
+> hope it'll be useful for you

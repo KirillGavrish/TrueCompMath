@@ -10,7 +10,7 @@ foreach (TEST_FILE IN LISTS TEST_SOURCES)
     set(EXECUTABLE_NAME run_${TEST_FILE_NAME})
 
     add_executable(${EXECUTABLE_NAME} ${TEST_FILE})
-
+    message(${TEST_FILE})
     target_link_libraries(${EXECUTABLE_NAME} PRIVATE labs GTest::gtest_main gtest gtest_main)
 
     add_test(NAME ${EXECUTABLE_NAME} COMMAND ${EXECUTABLE_NAME})
